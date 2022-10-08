@@ -14,10 +14,8 @@ This repository contains information about a 3 bit up counnter with synchronus b
 11) [Acknowledgements](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#acknowledgements-) <br />
 12) [References](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#references-) <br />
 ## Abstract <br />
-Operational transconductance amplifiers are 
-widely used in various applications like BGRs, VCO, VGA etc. <br />
-Here a double stage operational transconductance amplifier is designed and simulated on Synopsys custom compiler on 28nm technology node. 
-## Synopsys Custom Compiler Tool
+Counters are digital circuits widely used in various applications like counting, frequency divisions, memory increment in the registers, etc. In this abstract, the design of a 3-bit up counter with synchronus reset is described where the reset is buffered using a CMOS inverter buffer for better performance.
+## eSim and SKY130 PDK
 The [Synopsys Custom Compiler™](https://www.synopsys.com) design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools.
 ## Refrence Circuit Details & Circuit Diagram <br />
 The proposed operational transconductance amplifier consists of two stages: <br />
