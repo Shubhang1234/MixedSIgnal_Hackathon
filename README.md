@@ -19,19 +19,18 @@ Counters are digital circuits widely used in various applications like counting,
 eSim (previously known as Oscad / FreeEDA) is a free/libre and open source EDA tool (https://esim.fossee.in/home) for circuit design, simulation, analysis and PCB design. It is an integrated tool built using free/libre and open source software such as KiCad, Ngspice, Verilator, Makerchip, GHDL and OpenModelica. eSim is released under GPL. <br />
 The SKY130 (https://skywater-pdk.readthedocs.io/en/main/) is a mature 180nm-130nm hybrid technology originally developed internally by Cypress Semiconductor before being spun out into SkyWater Technology and made accessible to general industry. SkyWater and Google’s collaboration is now making this technology accessible to everyone!
 <br />
-## Refrence Circuit Details & Circuit Diagram <br />
+## Circuit Details <br />
 The schematic circuit is shown in Fig1. <br />
 The reset signal is fed to the counter using back to back CMOS inverter based buffer made on sky 130nm technology. The counter is made on Verilog and verified using makerchip IDE and is a fully synthesizable block. <br /> To interface the analog and digital signals the dac and adc bridges from esim hybrid are used (The default ouput values of dac are set to be 2V for high and 0V for low despite supply being 3V to differntiate and make the understanding of output easier). 
-![ckt](https://user-images.githubusercontent.com/56774313/194708777-b613e4ba-d1f9-4dde-9ae4-f00a4168dfe7.png)
  <br />
-Fig 1: Refrence Circuit Design of Proposed Circuit <br />
-## Refrence Circuit Waveform <br />
-![image](https://user-images.githubusercontent.com/56774313/155373852-d32fa98b-4f78-4053-9e01-09aa18b6a138.png) <br />
-Fig 2: Refrence Circuit Waveform of Proposed Circuit
-## Schematic <br />
+## Circuit Schematic <br />
+![ckt](https://user-images.githubusercontent.com/56774313/194709382-8ef1ee63-ad68-4ced-9988-0dc1d0f8e2e1.png)
+<br />
+Fig 1: Circuit Schematic
+## Simulated Waveforms <br />
  <br />
- ![ckt](https://user-images.githubusercontent.com/56774313/194708777-b613e4ba-d1f9-4dde-9ae4-f00a4168dfe7.png)
-Fig 3: Actual Schematic of Proposed Design
+
+Fig 2: Achieved waveforms (displaying clk,rst,a,b,c)
 ## Netlist <br />
 ```
 *Custom Compiler Version S-2021.09
