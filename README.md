@@ -25,7 +25,6 @@ The reset signal is fed to the counter using back to back CMOS inverter based bu
 <br />
 Fig 1: Circuit Schematic
 ## Simulated Waveforms <br />
- <br />
 ![vc](https://user-images.githubusercontent.com/56774313/194710573-7f859b55-3fd7-4c22-a676-d624f66d8e55.png)
 <br />
 Fig 2: vc (LSB of counter output) <br />
