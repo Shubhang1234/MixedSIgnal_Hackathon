@@ -26,8 +26,21 @@ The reset signal is fed to the counter using back to back CMOS inverter based bu
 Fig 1: Circuit Schematic
 ## Simulated Waveforms <br />
  <br />
-
-Fig 2: Achieved waveforms (displaying clk,rst,a,b,c)
+![vc](https://user-images.githubusercontent.com/56774313/194710573-7f859b55-3fd7-4c22-a676-d624f66d8e55.png)
+<br />
+Fig 2: vc (LSB of counter output) <br />
+![vb](https://user-images.githubusercontent.com/56774313/194710589-a1a49fda-231a-4c95-b243-6dd0e2ca4bc2.png)
+<br />
+Fig 3: vb (middle bit of counter output) <br />
+![va](https://user-images.githubusercontent.com/56774313/194710603-5f720b57-3f24-4e32-b85f-98e58f33ebfe.png)
+<br />
+Fig 4: va (MSB of counter output) <br />
+![clk](https://user-images.githubusercontent.com/56774313/194710616-662410e0-e922-417c-bf84-fced46b1f554.png)
+<br />
+Fig 5: clock signal <br />
+![rst](https://user-images.githubusercontent.com/56774313/194710623-d1891b19-60fe-491b-b1ee-923f95a01bac.png)
+<br />
+Fig 6: reset (given perioidcally to show its working more clearly) <br />
 ## Netlist <br />
 ```
 *Custom Compiler Version S-2021.09
