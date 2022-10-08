@@ -16,7 +16,8 @@ This repository contains information about a 3 bit up counnter with synchronus b
 ## Abstract <br />
 Counters are digital circuits widely used in various applications like counting, frequency divisions, memory increment in the registers, etc. In this abstract, the design of a 3-bit up counter with synchronus reset is described where the reset is buffered using a CMOS inverter buffer for better performance.
 ## eSim and SKY130 PDK
-The [Synopsys Custom Compiler™](https://www.synopsys.com) design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools.
+eSim (previously known as Oscad / FreeEDA) is a free/libre and open source EDA tool (https://esim.fossee.in/home) for circuit design, simulation, analysis and PCB design. It is an integrated tool built using free/libre and open source software such as KiCad, Ngspice, Verilator, Makerchip, GHDL and OpenModelica. eSim is released under GPL.
+The SKY130 (https://skywater-pdk.readthedocs.io/en/main/) is a mature 180nm-130nm hybrid technology originally developed internally by Cypress Semiconductor before being spun out into SkyWater Technology and made accessible to general industry. SkyWater and Google’s collaboration is now making this technology accessible to everyone!
 ## Refrence Circuit Details & Circuit Diagram <br />
 The proposed operational transconductance amplifier consists of two stages: <br />
 1) An input differential pair <br />
