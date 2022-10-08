@@ -1,18 +1,44 @@
 # 3-bit Synchronous up counter with buffered reset_google-iitb-esim-mixed-signal-HACKATHON
 This repository contains information about a 3 bit up counter with synchronus buffered reset implemented on esim using SKY130 PDK.
+
+
+
+
+
 # Table of Contents
 1) [Abstract](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#abstract-) <br />
-2) [eSim and SKY130 PDK](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#esim-and-sky130-pdk) <br />
-3) [Circuit Details](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#circuit-details-) <br /> 
-4) [Circuit Schematic](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#circuit-schematic-) <br />
-5) [Simulated Waveforms](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#simulated-waveforms-) <br />
-6) [Author](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#author-) <br />
-7) [Acknowledgements](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#acknowledgements-) <br />
-8) [References](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#references-) <br />
+2) Refrence Circuit Diagram
+3) Refrence Waveform
+4) [Circuit Details](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#circuit-details-) <br /> 
+5) [Software Used](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#esim-and-sky130-pdk) <br />
+6) [Circuit Schematic in esim](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#circuit-schematic-) <br />
+7) Verilog Code
+8) Makerchip
+9) Makerchip plots
+10) Netlists
+11) NgSpice Plots
+12) GAW Plots
+13) Steps to run generate NgVeri Model
+14) Steps to run this project
+15) [Author](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#author-) <br />
+16) [Acknowledgements](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#acknowledgements-) <br />
+17) [References](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#references-) <br />
 ## Abstract <br />
-Counters are digital circuits widely used in various applications like counting, frequency divisions, memory increment in the registers, etc. In this abstract, the design of a 3-bit up counter with synchronus reset is described where the reset is buffered using a CMOS inverter buffer for better performance.
+Counters are digital circuits widely used in various applications like counting, frequency divisions, memory increment in the registers, etc. In this abstract, the design of a 3-bit up counter with synchronus reset is described where the reset is buffered using a CMOS inverter buffer for better performance. <br />
+## Refrence Circuit Diagram
+The refrence circuit diagram along with the abstraction is depicted in Fig 1. <br />
+![image](https://user-images.githubusercontent.com/56774313/194713380-29f288a4-40c4-4b46-a143-949709ed1b33.png)
+<br />
+## Refrence Waveforms
+The refrence waveform for depiction of wokring of counter is attached below. (although the refrence waveform showing asynchronus reset, actual design is implemented with synchronus reset) <br />
+![image](https://user-images.githubusercontent.com/56774313/194713559-640e5467-6148-4726-a826-13af0dc19b8f.png)
+<br />
 ## eSim and SKY130 PDK
 eSim (previously known as Oscad / FreeEDA) is a free/libre and open source EDA tool (https://esim.fossee.in/home) for circuit design, simulation, analysis and PCB design. It is an integrated tool built using free/libre and open source software such as KiCad, Ngspice, Verilator, Makerchip, GHDL and OpenModelica. eSim is released under GPL. <br />
+////////////eSim
+NgSpice
+Makerchip
+Verilator <br />
 The SKY130 (https://skywater-pdk.readthedocs.io/en/main/) is a mature 180nm-130nm hybrid technology originally developed internally by Cypress Semiconductor before being spun out into SkyWater Technology and made accessible to general industry. SkyWater and Google’s collaboration is now making this technology accessible to everyone!
 <br />
 ## Circuit Details <br />
@@ -38,7 +64,7 @@ end
 endmodule
 ```
  
-## Circuit Schematic <br />
+## Circuit Schematic in esim <br />
 ![ckt](https://user-images.githubusercontent.com/56774313/194709382-8ef1ee63-ad68-4ced-9988-0dc1d0f8e2e1.png)
 <br />
 Fig 1: Circuit Schematic <br />
