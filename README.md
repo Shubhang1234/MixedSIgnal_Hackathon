@@ -500,6 +500,7 @@ endmodule
 ```
 <br />
 ## Makerchip <br />
+
 ```
 \TLV_version 1d: tl-x.org
 \SV
@@ -538,6 +539,7 @@ endmodule
 endmodule
 
 ```
+<br />
 ## Simulated Waveforms <br />
 Transient Simulation was done, the ouput file generated for the test is mentioned below: <br />
 ```
