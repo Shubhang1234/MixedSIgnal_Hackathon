@@ -14,8 +14,8 @@ This repository contains information about a 3 bit up counter with synchronus bu
 6) [Circuit Schematic in esim](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#circuit-schematic-in-esim-) <br />
 7) [Verilog Code](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#verilog-code-) <br />
 8) [Makerchip](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#makerchip-) <br />
-9) Makerchip plots
-10) Netlists
+9) [Makerchip plots](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#makerchip-plots-) <br />
+10) [Netlist](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#netlist-) <br />
 11) NgSpice Plots
 12) GAW Plots
 13) Steps to run generate NgVeri Model
