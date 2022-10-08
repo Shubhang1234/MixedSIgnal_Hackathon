@@ -542,7 +542,7 @@ endmodule
 <br />
 ## Makerchip Plots <br />
 ![image](https://user-images.githubusercontent.com/56774313/194717121-840313d7-a9ea-4ec7-b1f4-16b74264c6d1.png)
-<br />
+
 ## Simulated Waveforms <br />
 Transient Simulation was done, the ouput file generated for the test is mentioned below: <br />
 ```
