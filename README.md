@@ -25,11 +25,11 @@ This repository contains information about a 3 bit up counter with synchronus bu
 17) [References](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#references-) <br />
 ## Abstract <br />
 Counters are digital circuits widely used in various applications like counting, frequency divisions, memory increment in the registers, etc. In this abstract, the design of a 3-bit up counter with synchronus reset is described where the reset is buffered using a CMOS inverter buffer for better performance. <br />
-## Refrence Circuit Diagram
+## Reference Circuit Diagram
 The refrence circuit diagram along with the abstraction is depicted in Fig 1. <br />
 ![image](https://user-images.githubusercontent.com/56774313/194713380-29f288a4-40c4-4b46-a143-949709ed1b33.png)
 <br />
-## Refrence Waveforms]
+## Reference Waveform
 The refrence waveform for depiction of wokring of counter is attached below in Fig 2. (although the refrence waveform showing asynchronus reset, actual design is implemented with synchronus reset) <br />
 ![image](https://user-images.githubusercontent.com/56774313/194713559-640e5467-6148-4726-a826-13af0dc19b8f.png)
 <br />
