@@ -23,8 +23,9 @@ The [Synopsys Custom Compiler™](https://www.synopsys.com) design environment i
 The proposed operational transconductance amplifier consists of two stages: <br />
 1) An input differential pair <br />
 2) Common source amplifier stage <br />
-This amplifier is compensated using Miller Compensation technique. As its a second order amplifier it has two poles and one zero. The Miller capacitor decreases the value of dominant pole and drifts the second pole away from dominant one hence increasing the headroom for phase margin. This effect is called pole splitting. <br />
-![image](https://user-images.githubusercontent.com/56774313/155373573-14cedc3a-13c6-45fe-821e-bdb5b2cd07dd.png) <br />
+This amplifier is compensated using Miller Compensation technique. As its a second order amplifier it has two poles and one zero. The Miller capacitor decreases the value of dominant pole and drifts the second pole away from dominant one hence increasing the headroom for phase margin. This effect is called pole splitting. <br /> 
+![ckt](https://user-images.githubusercontent.com/56774313/194708777-b613e4ba-d1f9-4dde-9ae4-f00a4168dfe7.png)
+ <br />
 Fig 1: Refrence Circuit Design of Proposed Circuit <br />
 ## Refrence Circuit Waveform <br />
 ![image](https://user-images.githubusercontent.com/56774313/155373852-d32fa98b-4f78-4053-9e01-09aa18b6a138.png) <br />
