@@ -600,7 +600,7 @@ plot v(rst)
 
 ```
 
-## Simulated Waveforms <br />
+## NgSpice Plots <br />
 Transient Simulation was done, the ouput file generated for the test is mentioned below: <br />
 
 ![vc](https://user-images.githubusercontent.com/56774313/194710573-7f859b55-3fd7-4c22-a676-d624f66d8e55.png)
@@ -618,6 +618,10 @@ Fig 5: clock signal <br />
 ![rst](https://user-images.githubusercontent.com/56774313/194710623-d1891b19-60fe-491b-b1ee-923f95a01bac.png)
 <br />
 Fig 6: reset (given perioidcally to show its working more clearly) <br />
+
+## GAW Plots <br />
+![image](https://user-images.githubusercontent.com/56774313/194717413-64c8d6f9-fb53-4184-9030-a9d6390957cd.png)
+
 
 ## Author <br />
 Shubhang Srivastava <br />
