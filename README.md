@@ -5,14 +5,12 @@ This repository contains information about a 3 bit up counnter with synchronus b
 2) [eSim and SKY130 PDK](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#esim-and-sky130-pdk) <br />
 3) [Circuit Details](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#circuit-details-) <br /> 
 4) [Circuit Schematic](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#circuit-schematic-) <br />
-5) [Simulated Waveforms](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#schematic-) <br />
+5) [Simulated Waveforms](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#simulated-waveforms-) <br />
 6) [Netlist](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#netlist-) <br />
-7) [Actual Simulation Stimuli](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#actual-simulation-stimuli-) <br />
-8) [Simulated actual waveforms](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#simulated-actual-waveforms-) <br />
-9) [Observations](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#observations-) <br />
-10) [Author](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#author-) <br />
-11) [Acknowledgements](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#acknowledgements-) <br />
-12) [References](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#references-) <br />
+7) [Observations](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#observations-) <br />
+8) [Author](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#author-) <br />
+9) [Acknowledgements](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#acknowledgements-) <br />
+10) [References](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#references-) <br />
 ## Abstract <br />
 Counters are digital circuits widely used in various applications like counting, frequency divisions, memory increment in the registers, etc. In this abstract, the design of a 3-bit up counter with synchronus reset is described where the reset is buffered using a CMOS inverter buffer for better performance.
 ## eSim and SKY130 PDK
@@ -60,25 +58,6 @@ v24 net1 gnd! dc=1
 .ends ota_netlist
  
 ``` 
-## Actual Simulation Stimuli <br />
-Input common mode voltage-->0.3 V <br />
-Fig 4: Small signal AC fluctuation-->vin+(L) & vin-(R) <br />![MergedImages](https://user-images.githubusercontent.com/56774313/155460689-fc33f329-06f1-4d11-811d-5864c1810580.png) <br />
-## Simulated actual waveforms <br />
-![BODEPLOT](https://user-images.githubusercontent.com/56774313/155464974-f0aa7c86-77f1-41d7-88f1-8ec2c4e6faee.png)
-Fig 5: Actual Obtained Bode Gain & Phase Plot of the design <br />
-Obtained BODE PLOT indicates a DC Gain of ~53dB and Phase Margin of ~63.5° <br />
-*Side note-->By proper miller compensation this ampifier is best suited for audio signal amplification purposes.
-## Observations <br />
-A breif contrast between targeted and actual specifications is mentioned below:
-| Specifications        | Targeted       | Actual     | Result  |
-| --------------------- |:--------------:| -------:   | :------:|      
-| DC Gain               | ~50dB          |   53.5 dB  | PASS    |  
-| GBW                   | >100kHz        |   4.11 MHz | PASS    |  
-| Supply Voltage        | ~1V            |   1V       | PASS    |  
-| Power Consumption     | <100µW         |   17.37 µW | PASS    |  
-| Phase Margin          | ~60°           |   63.5°    | PASS    |  
-| Slew rate             | >0.1 V/μs      |   ~2 V/μs  | PASS    |  
-| Area (approx)         | <100μm2        |   ~92μm2   | PASS    |  
 ## Author <br />
 Shubhang Srivastava <br />
 Student <br />
