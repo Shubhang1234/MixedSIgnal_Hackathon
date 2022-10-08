@@ -3,7 +3,7 @@ This repository contains information about a 3 bit up counnter with synchronus b
 # Table of Contents
 1) [Abstract](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#abstract-) <br />
 2) [eSim and SKY130 PDK](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#esim-and-sky130-pdk) <br />
-3) [Circuit Details](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-details--circuit-diagram-) <br /> 
+3) [Circuit Details](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#circuit-details-) <br /> 
 4) [Circuit Schematic](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-waveform-) <br />
 5) [Simulated Waveforms](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#schematic-) <br />
 6) [Netlist](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#netlist-) <br />
