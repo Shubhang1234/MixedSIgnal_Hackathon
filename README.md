@@ -24,7 +24,7 @@ This repository contains information about a 3 bit up counter with synchronus bu
 16) [Acknowledgements](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#acknowledgements-) <br />
 17) [References](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#references-) <br />
 ## Abstract <br />
-Counters are digital circuits widely used in various applications like counting, frequency divisions, memory increment in the registers, etc. In this abstract, the design of a 3-bit up counter with synchronus reset is described where the reset is buffered using a CMOS inverter buffer for better performance. <br />
+Counters are digital circuits widely used in various applications like counting, frequency divisions, memory increment in the registers, etc. In this project, the design of a 3-bit up counter with synchronus reset is described where the reset is buffered using a CMOS inverter buffer for better performance. <br />
 ## Reference Circuit Diagram
 The refrence circuit diagram along with the abstraction is depicted in Fig 1. <br />
 ![image](https://user-images.githubusercontent.com/56774313/194713380-29f288a4-40c4-4b46-a143-949709ed1b33.png)
@@ -53,7 +53,7 @@ https://www.makerchip.com/ <br />
 ## Circuit Schematic in eSim <br />
 ![ckt](https://user-images.githubusercontent.com/56774313/194709382-8ef1ee63-ad68-4ced-9988-0dc1d0f8e2e1.png)
 <br />
-Fig 1: Circuit Schematic <br />
+Fig 3: Circuit Schematic <br />
 
 ## Verilog Code <br />
  The verilog code for the used counter is given below: <br />
@@ -117,6 +117,7 @@ endmodule
 ```
 
 ## Makerchip Plots <br />
+Fig 4 Depicts the Makerchip Plots. <br />
 ![image](https://user-images.githubusercontent.com/56774313/194717121-840313d7-a9ea-4ec7-b1f4-16b74264c6d1.png)
 
 ## Netlist <br />
@@ -181,21 +182,22 @@ Transient Simulation was done, the ouput file generated for the test is mentione
 
 ![vc](https://user-images.githubusercontent.com/56774313/194710573-7f859b55-3fd7-4c22-a676-d624f66d8e55.png)
 <br />
-Fig 2: vc (LSB of counter output) <br />
+Fig 5: vc (LSB of counter output) <br />
 ![vb](https://user-images.githubusercontent.com/56774313/194710589-a1a49fda-231a-4c95-b243-6dd0e2ca4bc2.png)
 <br />
-Fig 3: vb (middle bit of counter output) <br />
+Fig 6: vb (middle bit of counter output) <br />
 ![va](https://user-images.githubusercontent.com/56774313/194710603-5f720b57-3f24-4e32-b85f-98e58f33ebfe.png)
 <br />
-Fig 4: va (MSB of counter output) <br />
+Fig 7: va (MSB of counter output) <br />
 ![clk](https://user-images.githubusercontent.com/56774313/194710616-662410e0-e922-417c-bf84-fced46b1f554.png)
 <br />
-Fig 5: clock signal <br />
+Fig 8: clock signal <br />
 ![rst](https://user-images.githubusercontent.com/56774313/194710623-d1891b19-60fe-491b-b1ee-923f95a01bac.png)
 <br />
-Fig 6: reset (given perioidcally to show its working more clearly) <br />
+Fig 9: reset (given perioidcally to show its working more clearly) <br />
 
 ## GAW Plots <br />
+Fig 10 Represents GAW plot.
 ![image](https://user-images.githubusercontent.com/56774313/194717413-64c8d6f9-fb53-4184-9030-a9d6390957cd.png)
 
 ## Steps to run generate NgVeri Model <br />
@@ -207,7 +209,7 @@ Fig 6: reset (given perioidcally to show its working more clearly) <br />
 6) Click on Run Verilog to NgSpice Converter
 7) Debug if any errors
 8) Model created successfully <br />
-## Steps to Run the Project
+## Steps to Run the Project <br />
 To run the project in eSim:
 1) Run eSim (On Virtual machine it needs to be evoked from the terminal)
 2) Load the project
