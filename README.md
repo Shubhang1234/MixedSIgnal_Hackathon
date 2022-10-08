@@ -622,6 +622,20 @@ Fig 6: reset (given perioidcally to show its working more clearly) <br />
 ## GAW Plots <br />
 ![image](https://user-images.githubusercontent.com/56774313/194717413-64c8d6f9-fb53-4184-9030-a9d6390957cd.png)
 
+## Steps to run generate NgVeri Model <br />
+1) Open eSim
+2) Run NgVeri-Makerchip
+3) Add top level verilog file in Makerchip Tab
+4) Click on NgVeri tab
+5) Add dependency files
+6) Click on Run Verilog to NgSpice Converter
+7) Debug if any errors
+8) Model created successfully <br />
+## Steps to Run the Project
+To run the project in eSim:
+1) Run eSim (On Virtual machine it needs to be evoked from the terminal)
+2) Load the project
+3) Open eeSchema <br />
 
 ## Author <br />
 Shubhang Srivastava <br />
