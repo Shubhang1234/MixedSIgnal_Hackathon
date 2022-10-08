@@ -8,7 +8,7 @@ This repository contains information about a 3 bit up counnter with synchronus b
 5) [Simulated Waveforms](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#simulated-waveforms-) <br />
 6) [Netlist](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#netlist-) <br />
 7) [Observations](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#observations-) <br />
-8) [Author](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#author-) <br />
+8) [Author](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#author-) <br />
 9) [Acknowledgements](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#acknowledgements-) <br />
 10) [References](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#references-) <br />
 ## Abstract <br />
