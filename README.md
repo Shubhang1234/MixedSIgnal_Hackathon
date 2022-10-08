@@ -498,7 +498,7 @@ end
 end
 endmodule
 ```
-<br />
+
 ## Makerchip <br />
 
 ```
