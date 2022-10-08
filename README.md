@@ -45,24 +45,7 @@ The SKY130 (https://skywater-pdk.readthedocs.io/en/main/) is a mature 180nm-130n
 The schematic circuit is shown in Fig1. <br />
 The reset signal is fed to the counter using back to back CMOS inverter based buffer made on sky 130nm technology. The counter is made on Verilog and verified using makerchip IDE and is a fully synthesizable block. <br /> To interface the analog and digital signals the dac and adc bridges from esim hybrid are used (The default ouput values of dac are set to be 2V for high and 0V for low despite supply being 3V to differntiate and make the understanding of output easier). 
  <br />
- The verilog code for the used counter is given below: <br />
-```
-module shubhang_cnt3(clk,rst,out);
-input clk,rst;
-output reg [2:0]out;
-always @(posedge clk)
-begin 
-if (rst)
-begin 
-out<=3'b0;
-end
-else 
-begin
-out<=out+1'b1;
-end
-end
-endmodule
-```
+
  
 ## Circuit Schematic in esim <br />
 ![ckt](https://user-images.githubusercontent.com/56774313/194709382-8ef1ee63-ad68-4ced-9988-0dc1d0f8e2e1.png)
@@ -493,6 +476,26 @@ Wire Wire Line
 Connection ~ 3900 3200
 $EndSCHEMATC
 ```
+## Verilog Code <br />
+ The verilog code for the used counter is given below: <br />
+```
+module shubhang_cnt3(clk,rst,out);
+input clk,rst;
+output reg [2:0]out;
+always @(posedge clk)
+begin 
+if (rst)
+begin 
+out<=3'b0;
+end
+else 
+begin
+out<=out+1'b1;
+end
+end
+endmodule
+```
+<br />
 ## Simulated Waveforms <br />
 Transient Simulation was done, the ouput file generated for the test is mentioned below: <br />
 ```
