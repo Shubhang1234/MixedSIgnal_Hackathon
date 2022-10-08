@@ -9,7 +9,7 @@ This repository contains information about a 3 bit up counnter with synchronus b
 6) [Netlist](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#netlist-) <br />
 7) [Observations](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#observations-) <br />
 8) [Author](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#author-) <br />
-9) [Acknowledgements](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#acknowledgements-) <br />
+9) [Acknowledgements](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#acknowledgements-) <br />
 10) [References](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#references-) <br />
 ## Abstract <br />
 Counters are digital circuits widely used in various applications like counting, frequency divisions, memory increment in the registers, etc. In this abstract, the design of a 3-bit up counter with synchronus reset is described where the reset is buffered using a CMOS inverter buffer for better performance.
