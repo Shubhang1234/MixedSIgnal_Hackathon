@@ -50,7 +50,7 @@ https://www.makerchip.com/ <br />
 
 
  
-## Circuit Schematic in esim <br />
+## Circuit Schematic in eSim <br />
 ![ckt](https://user-images.githubusercontent.com/56774313/194709382-8ef1ee63-ad68-4ced-9988-0dc1d0f8e2e1.png)
 <br />
 Fig 1: Circuit Schematic <br />
