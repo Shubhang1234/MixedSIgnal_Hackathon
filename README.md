@@ -9,7 +9,7 @@ This repository contains information about a 3 bit up counter with synchronus bu
 1) [Abstract](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#abstract-) <br />
 2) [Reference Circuit Diagram](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#refrence-circuit-diagram) <br />
 3) [Reference Waveform](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#refrence-waveforms) <br />
-4) [Circuit Details](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#circuit-details-) <br /> 
+4) [Circuit Details](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#circuit-details-) <br /> 
 5) [Software Used](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#software-used) <br />
 6) [Circuit Schematic in esim](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#circuit-schematic-in-esim-) <br />
 7) [Verilog Code](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#verilog-code-) <br />
