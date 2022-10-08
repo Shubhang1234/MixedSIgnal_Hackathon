@@ -24,7 +24,7 @@ This repository contains information about a 3 bit up counter with synchronus bu
 16) [Acknowledgements](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#acknowledgements-) <br />
 17) [References](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#references-) <br />
 ## Abstract <br />
-Counters are digital circuits widely used in various applications like counting, frequency divisions, memory increment in the registers, etc. In this project, the design of a 3-bit up counter with synchronus reset is described where the reset is buffered using a CMOS inverter buffer for better performance. <br />
+Counters are digital circuits widely used in various applications like counting, frequency divisions, memory increment in the registers, etc. In this project, the design of a 3-bit up counter with synchronus reset is described where the reset is buffered for better performance. <br />
 ## Reference Circuit Diagram
 The refrence circuit diagram along with the abstraction is depicted in Fig 1. <br />
 ![image](https://user-images.githubusercontent.com/56774313/194713380-29f288a4-40c4-4b46-a143-949709ed1b33.png)
@@ -35,8 +35,8 @@ The refrence waveform for depiction of wokring of counter is attached below in F
 <br />
 
 ## Circuit Details <br />
-The up counter is designed Back to back connected CMOS 2-Tx based inverter made on sky 130nm technology is used to buffer the reset signal to avoid any possible synchronization errors. Then the reset signal is passed to the reset input of the counter block for furthur operation.
-The counter is made on Verilog and verified using makerchip IDE and is a fully synthesizable block. <br /> To interface the analog and digital signals the dac and adc bridges from esim hybrid are used (The default ouput values of dac are set to be 2V for high and 0V for low despite supply being 3V to differntiate and make the understanding of output easier). 
+The up counter is designed using back to back connected CMOS 2-Tx based inverter based buffer made on sky 130nm technology to buffer the reset signal hence to avoid any possible synchronization errors. Then the reset signal is passed to the reset input of the counter block for furthur operation.
+The counter is made on Verilog and verified using makerchip IDE and is a fully synthesizable block. <br /> To interface the analog and digital signals the dac and adc bridges from esim hybrid are used (The default ouput values of dac are set to be 2V for high and 0V for low despite supply being 3V to differentiate and make the understanding of output easier). 
  <br />
 ## Software Used
 1) eSim is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice and KiCAD.
