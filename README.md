@@ -1,4 +1,4 @@
-# TwoStage-OTA@28nm_IITH_HACKATHON
+# 3-bit Synchronous up counter with buffered reset_google-iitb-esim-mixed-signal-HACKATHON
 This repository contains information about Double stage Operational Trnasconductance amplifier implemented on Synopsys Custom Compiler on 28nm technology node.
 # Table of Contents
 1) [Abstract](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#abstract-) <br />
