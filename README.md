@@ -65,7 +65,7 @@ v3  clk gnd pulse(0 3 0 1u 1u 0.1m 0.2m)
 v1  rst gnd pulse(0 3 0 1u 1u 1m 2m)
 * u3  clk net-_u1-pad1_ adc_bridge_1
 * u4  net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ a b c dac_bridge_3
-v2 ? gnd  dc 3
+v2  gnd  dc 3
 * u5  a plot_v1
 * u7  b plot_v1
 * u6  c plot_v1
