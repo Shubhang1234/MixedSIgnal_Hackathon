@@ -82,17 +82,19 @@ A breif contrast between targeted and actual specifications is mentioned below:
 ## Author <br />
 Shubhang Srivastava <br />
 Student <br />
+IC ResQ Lab <br />
 Dept of Electrical engineering <br />
-Indian Institute of Technology Jammu <br />
+Indian Institute of Technology Jammu 181221<br />
 ## Acknowledgements <br />
 I would like to give my sincere thanks to undermentioned Organization/Persons for their invaluable guidance and software support which enabled me to participate and learn a lot from this Hackathon:
  
 1) Indian Institute of Technology Bombay (http://iitb.ac.in/)
 2) Google (https://www.google.co.in/)
 3) FOSSEE (https://fossee.in/)
-4) https://spoken-tutorial.org/
-5) Kunal Ghosh, Co-founder, [VSD Corp. Pvt. Ltd.](https://www.vlsisystemdesign.com)
+4) Spoken Tutorials (https://spoken-tutorial.org/)
+5) VSD (https://www.vlsisystemdesign.com)
 6) Chips to Startup Gov of India (https://www.c2s.gov.in/)
+7) Sumanto Kar (Sr Project Technical Assistant at IITB)
 
 ## References <br />
 [1] Z. Yan, C. Zhang and M. Wang, "Low-Voltage Bandgap Reference 
