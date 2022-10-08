@@ -1,7 +1,7 @@
 # 3-bit Synchronous up counter with buffered reset_google-iitb-esim-mixed-signal-HACKATHON
 This repository contains information about a 3 bit up counnter with synchronus buffered reset implemented on esim using SKY130 PDK.
 # Table of Contents
-1) [Abstract](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#abstract-) <br />
+1) [Abstract](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#abstract-) <br />
 2) [eSim and SKY130 PDK](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#esim-and-sky130-pdk) <br />
 3) [Circuit Details](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#circuit-details-) <br /> 
 4) [Circuit Schematic](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#circuit-schematic-) <br />
