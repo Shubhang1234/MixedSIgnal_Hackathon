@@ -6,10 +6,9 @@ This repository contains information about a 3 bit up counnter with synchronus b
 3) [Circuit Details](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#circuit-details-) <br /> 
 4) [Circuit Schematic](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#circuit-schematic-) <br />
 5) [Simulated Waveforms](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#simulated-waveforms-) <br />
-6) [Netlist](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#netlist-) <br />
-7) [Author](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#author-) <br />
-8) [Acknowledgements](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#acknowledgements-) <br />
-9) [References](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#references-) <br />
+6) [Author](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#author-) <br />
+7) [Acknowledgements](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#acknowledgements-) <br />
+8) [References](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#references-) <br />
 ## Abstract <br />
 Counters are digital circuits widely used in various applications like counting, frequency divisions, memory increment in the registers, etc. In this abstract, the design of a 3-bit up counter with synchronus reset is described where the reset is buffered using a CMOS inverter buffer for better performance.
 ## eSim and SKY130 PDK
@@ -42,7 +41,7 @@ endmodule
 ## Circuit Schematic <br />
 ![ckt](https://user-images.githubusercontent.com/56774313/194709382-8ef1ee63-ad68-4ced-9988-0dc1d0f8e2e1.png)
 <br />
-Fig 1: Circuit Schematic
+Fig 1: Circuit Schematic <br />
 Code generated in ng spice for circuit schematic is mentioned below:
 ```
 EESchema Schematic File Version 2
@@ -540,35 +539,7 @@ Fig 5: clock signal <br />
 ![rst](https://user-images.githubusercontent.com/56774313/194710623-d1891b19-60fe-491b-b1ee-923f95a01bac.png)
 <br />
 Fig 6: reset (given perioidcally to show its working more clearly) <br />
-## Netlist <br />
-```
-*Custom Compiler Version S-2021.09
-*Mon Feb 28 04:59:50 2022
 
-.global gnd!
-********************************************************************************
-* Library          : wk_shubhang_ota
-* Cell             : OTA_netlist
-* View             : schematic
-* View Search List : hspice hspiceD cmos.sch cmos_sch schematic veriloga
-* View Stop List   : hspice hspiceD veriloga
-********************************************************************************
-.subckt ota_netlist vin+ vin- vout
-xm24 net5 net5 gnd! gnd! n105 w=3.5u l=500n nf=1 m=1
-xm26 net3 net5 gnd! gnd! n105 w=3.5u l=500n nf=1 m=1
-xm27 vout net3 gnd! gnd! n105 w=52.5u l=500n nf=15 m=1
-xm30 net2 net2 net1 net1 p105 w=12u l=500n nf=4 m=1
-xm29 net4 net2 net1 net1 p105 w=12u l=500n nf=4 m=1
-xm28 vout net2 net1 net1 p105 w=77u l=500n nf=22 m=1
-xm23 net3 vin+ net4 net4 p105 w=12u l=500n nf=4 m=1
-xm25 net5 vin- net4 net4 p105 w=12u l=500n nf=4 m=1
-i27 net2 gnd! dc=2u
-c24 vout gnd! c=1p
-c23 net3 vout c=1p
-v24 net1 gnd! dc=1
-.ends ota_netlist
- 
-``` 
 ## Author <br />
 Shubhang Srivastava <br />
 Student <br />
