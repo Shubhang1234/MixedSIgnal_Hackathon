@@ -499,7 +499,7 @@ end
 endmodule
 ```
 <br />
-## Makerchip
+## Makerchip <br />
 ```
 \TLV_version 1d: tl-x.org
 \SV
@@ -536,7 +536,6 @@ endmodule
 //Add \TLV here if desired                                     
 \SV
 endmodule
-
 
 ```
 ## Simulated Waveforms <br />
