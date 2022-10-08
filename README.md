@@ -19,7 +19,7 @@ This repository contains information about a 3 bit up counter with synchronus bu
 11) [NgSpice Plots](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#ngspice-plots-) <br />
 12) [GAW Plots](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#gaw-plots-) <br />
 13) [Steps to run generate NgVeri Model](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#steps-to-run-generate-ngveri-model-) <br />
-14) Steps to run this project
+14) [Steps to run this project](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#steps-to-run-the-project) <br />
 15) [Author](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#author-) <br />
 16) [Acknowledgements](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#acknowledgements-) <br />
 17) [References](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/blob/main/README.md#references-) <br />
