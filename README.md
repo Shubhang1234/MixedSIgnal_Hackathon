@@ -543,8 +543,7 @@ endmodule
 ## Makerchip Plots <br />
 ![image](https://user-images.githubusercontent.com/56774313/194717121-840313d7-a9ea-4ec7-b1f4-16b74264c6d1.png)
 
-## Simulated Waveforms <br />
-Transient Simulation was done, the ouput file generated for the test is mentioned below: <br />
+## Netlist <br />
 ```
 * /home/2019uee0117/esim-workspace/counter/counter.cir
 
@@ -600,6 +599,10 @@ plot v(rst)
 .end
 
 ```
+
+## Simulated Waveforms <br />
+Transient Simulation was done, the ouput file generated for the test is mentioned below: <br />
+
 ![vc](https://user-images.githubusercontent.com/56774313/194710573-7f859b55-3fd7-4c22-a676-d624f66d8e55.png)
 <br />
 Fig 2: vc (LSB of counter output) <br />
