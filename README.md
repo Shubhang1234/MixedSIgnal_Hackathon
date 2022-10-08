@@ -30,21 +30,24 @@ The refrence circuit diagram along with the abstraction is depicted in Fig 1. <b
 ![image](https://user-images.githubusercontent.com/56774313/194713380-29f288a4-40c4-4b46-a143-949709ed1b33.png)
 <br />
 ## Refrence Waveforms
-The refrence waveform for depiction of wokring of counter is attached below. (although the refrence waveform showing asynchronus reset, actual design is implemented with synchronus reset) <br />
+The refrence waveform for depiction of wokring of counter is attached below in Fig 2. (although the refrence waveform showing asynchronus reset, actual design is implemented with synchronus reset) <br />
 ![image](https://user-images.githubusercontent.com/56774313/194713559-640e5467-6148-4726-a826-13af0dc19b8f.png)
 <br />
-## eSim and SKY130 PDK
-eSim (previously known as Oscad / FreeEDA) is a free/libre and open source EDA tool (https://esim.fossee.in/home) for circuit design, simulation, analysis and PCB design. It is an integrated tool built using free/libre and open source software such as KiCad, Ngspice, Verilator, Makerchip, GHDL and OpenModelica. eSim is released under GPL. <br />
-////////////eSim
-NgSpice
-Makerchip
-Verilator <br />
-The SKY130 (https://skywater-pdk.readthedocs.io/en/main/) is a mature 180nm-130nm hybrid technology originally developed internally by Cypress Semiconductor before being spun out into SkyWater Technology and made accessible to general industry. SkyWater and Google’s collaboration is now making this technology accessible to everyone!
-<br />
+
 ## Circuit Details <br />
-The schematic circuit is shown in Fig1. <br />
-The reset signal is fed to the counter using back to back CMOS inverter based buffer made on sky 130nm technology. The counter is made on Verilog and verified using makerchip IDE and is a fully synthesizable block. <br /> To interface the analog and digital signals the dac and adc bridges from esim hybrid are used (The default ouput values of dac are set to be 2V for high and 0V for low despite supply being 3V to differntiate and make the understanding of output easier). 
+The up counter is designed Back to back connected CMOS 2-Tx based inverter made on sky 130nm technology is used to buffer the reset signal to avoid any possible synchronization errors. Then the reset signal is passed to the reset input of the counter block for furthur operation.
+The counter is made on Verilog and verified using makerchip IDE and is a fully synthesizable block. <br /> To interface the analog and digital signals the dac and adc bridges from esim hybrid are used (The default ouput values of dac are set to be 2V for high and 0V for low despite supply being 3V to differntiate and make the understanding of output easier). 
  <br />
+## Software Used
+1) eSim is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice and KiCAD.
+For more details refer:
+https://esim.fossee.in/home <br />
+2) ng spice is an Open Source Software for Spice Simulations. For more details refer:
+http://ngspice.sourceforge.net/docs.html <br />
+3) Makerchip is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation. Refer
+https://www.makerchip.com/ <br />
+4) Verilator is a tool which converts Verilog code to C++ objects. Refer: https://www.veripool.org/verilator/ <br />
+
 
  
 ## Circuit Schematic in esim <br />
