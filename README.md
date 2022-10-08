@@ -29,7 +29,8 @@ Fig 1: Refrence Circuit Design of Proposed Circuit <br />
 ![image](https://user-images.githubusercontent.com/56774313/155373852-d32fa98b-4f78-4053-9e01-09aa18b6a138.png) <br />
 Fig 2: Refrence Circuit Waveform of Proposed Circuit
 ## Schematic <br />
-![ckt_design](https://user-images.githubusercontent.com/56774313/155832197-56baa713-0ebf-49d3-8984-d1a6bec38373.png) <br />
+ <br />
+ ![ckt](https://user-images.githubusercontent.com/56774313/194708777-b613e4ba-d1f9-4dde-9ae4-f00a4168dfe7.png)
 Fig 3: Actual Schematic of Proposed Design
 ## Netlist <br />
 ```
