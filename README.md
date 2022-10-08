@@ -2,7 +2,7 @@
 This repository contains information about a 3 bit up counnter with synchronus buffered reset implemented on esim using SKY130 PDK.
 # Table of Contents
 1) [Abstract](https://github.com/Shubhang1234/MixedSIgnal_Hackathon/edit/main/README.md#abstract-) <br />
-2) [Synopsys Custom Compiler Tool](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#synopsys-custom-compiler-tool)
+2) [eSim and SKY130 PDK](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#synopsys-custom-compiler-tool)
 3) [Refrence Circuit Details & Circuit Diagram](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-details--circuit-diagram-) <br /> 
 4) [Refrence Circuit Waveform](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-waveform-) <br />
 5) [Schematic](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#schematic-) <br />
